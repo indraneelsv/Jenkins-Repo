@@ -7,5 +7,5 @@ import com.ibm.entity.Employee;
 
 @RepositoryRestResource(path="members")
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
-
+ 
 }
